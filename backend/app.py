@@ -14,6 +14,10 @@ MODEL_PATH = os.path.join(BASE_DIR, 'model.pkl')
 # Global variable to store the pipeline
 pipeline = None
 
+@app.route('/')
+def home():
+    return "Bike Demand Prediction API is running 🚴‍♂️"
+
 def load_pipeline():
     global pipeline
     if os.path.exists(MODEL_PATH):
