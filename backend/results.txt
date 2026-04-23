@@ -1,0 +1,4 @@
+--- Model Evaluation Results ---
+Random Forest: R2=0.8676, MAE=44.49, RMSE=64.74
+XGBoost: R2=0.9059, MAE=36.77, RMSE=54.58
+Final Tuned Model R2: 0.9343
